@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 08:29:26 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDg6MTc6NDggIjszMDEx"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDg6MjM6MzQgIjsxO21pY2hlO0xBUFRPUC00T0tKR0xLVTsyMDIyLTEwLTE2OyIxMDoyMjoyNCAiO0VTRVJDSVpJTyBJVEVSQVpJT05JIEUgU0VMRVpJT05JIDEgTUlDSEVMRSBDRVJWQVRJLmZwcmc7OTk4MA=="/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDg6Mjk6MjYgIjsxOzMxMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a == b &amp;&amp; b == c">
+                <then>
+                    <output expression="&quot;TRIANGOLO EQUILATERO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(a == b &amp;&amp; a != c) || (a == c &amp;&amp; a != b ) || (b == c &amp;&amp; c != a)">
+                        <then>
+                            <output expression="&quot;TRIANGOLO ISOSCELE&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;TRIANGOLO SCALENO&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

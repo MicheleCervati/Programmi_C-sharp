@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-08 08:50:21 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDI7MjAyMi0xMC0wODsiMDg6MzI6NTEgIjsyOTk0"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDI7MjAyMi0xMC0wODsiMDg6NTA6MjEgIjsxOzMwOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="scelta" type="String" array="False" size=""/>
+            <declare name="soave, merlotte, prosecco, prezzoVino, trasporto, sconto, sogliaSconto, iva, prezzo, litri, totale" type="Real" array="False" size=""/>
+            <declare name="vinoScelto" type="Integer" array="False" size=""/>
+            <assign variable="soave" expression="1.5"/>
+            <assign variable="merlotte" expression="1"/>
+            <assign variable="prosecco" expression="3"/>
+            <assign variable="trasporto" expression="5"/>
+            <assign variable="sconto" expression="10"/>
+            <assign variable="iva" expression="22"/>
+            <assign variable="sogliaSconto" expression="10"/>
+            <assign variable="soave" expression="soave * (100+iva)/100"/>
+            <assign variable="merlotte" expression="merlotte * (100+iva)/100"/>
+            <assign variable="prosecco" expression="prosecco * (100+iva)/100"/>
+            <input variable="scelta"/>
+            <if expression="scelta = &quot;1&quot; || scelta = &quot;2&quot; || scelta = &quot;3&quot;">
+                <then>
+                    <if expression="scelta = &quot;1&quot;">
+                        <then>
+                            <input variable="litri"/>
+                            <assign variable="vinoScelto" expression="Soave"/>
+                            <assign variable="prezzoVino" expression="soave"/>
+                        </then>
+                        <else>
+                            <if expression="scelta = &quot;2&quot;">
+                                <then>
+                                    <input variable="litri"/>
+                                    <assign variable="vinoScelto" expression="Merlotte"/>
+                                    <assign variable="prezzoVino" expression="merlotte"/>
+                                </then>
+                                <else>
+                                    <input variable="litri"/>
+                                    <assign variable="vinoScelto" expression="Prosecco"/>
+                                    <assign variable="prezzoVino" expression="prosecco"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <assign variable="totale" expression="prezzoVino * litri"/>
+                    <input variable="scelta"/>
+                    <if expression="scelta = &quot;Si&quot; || scelta = &quot;No&quot; || scelta = &quot;1&quot; || scelta = &quot;2&quot;">
+                        <then>
+                            <if expression="scelta = &quot;1&quot; || scelta = &quot;Si&quot;">
+                                <then>
+                                    <assign variable="totale" expression="totale + trasporto"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="litri &gt; sogliaSconto">
+                        <then>
+                            <assign variable="totale" expression="totale * (100 - iva)/100"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <output expression="totale" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Commesso: Non abbiamo questo prodotto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

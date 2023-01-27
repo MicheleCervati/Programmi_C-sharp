@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\bin\Debug\ConversioneDec_Bin.exe.config
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\bin\Debug\ConversioneDec_Bin.exe
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\bin\Debug\ConversioneDec_Bin.pdb
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\obj\Debug\ConversioneDec_Bin.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\obj\Debug\ConversioneDec_Bin.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\obj\Debug\ConversioneDec_Bin.exe
+C:\Users\Studente\Desktop\Michele_Cervati\ConversioneDec_Bin\ConversioneDec_Bin\obj\Debug\ConversioneDec_Bin.pdb

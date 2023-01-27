@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\obj\Debug\EsVinaio_Cervati_Michele.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\obj\Debug\EsVinaio_Cervati_Michele.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\obj\Debug\EsVinaio_Cervati_Michele.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\bin\Debug\EsVinaio_Cervati_Michele.exe.config
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\bin\Debug\EsVinaio_Cervati_Michele.exe
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\bin\Debug\EsVinaio_Cervati_Michele.pdb
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\obj\Debug\EsVinaio_Cervati_Michele.exe
+C:\Users\miche\Desktop\EsVinaio_Cervati_Michele\EsVinaio_Cervati_Michele\obj\Debug\EsVinaio_Cervati_Michele.pdb

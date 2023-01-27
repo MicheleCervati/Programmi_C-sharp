@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\bin\Debug\SalvailMondo.exe.config
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\bin\Debug\SalvailMondo.exe
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\bin\Debug\SalvailMondo.pdb
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\obj\Debug\SalvailMondo.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\obj\Debug\SalvailMondo.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\obj\Debug\SalvailMondo.exe
+C:\Users\Studente\Desktop\MicheleCervati\SalvailMondo\obj\Debug\SalvailMondo.pdb

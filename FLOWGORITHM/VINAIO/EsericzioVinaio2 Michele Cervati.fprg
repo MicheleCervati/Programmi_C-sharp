@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-04 09:24:55 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0wNDsiMDg6Mzc6MDIgIjsyOTk4"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0wNDsiMDk6MjQ6NTUgIjsxOzMxMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LSoave, LMerlot, LProsecco, PrezzoSoave, PrezzoMerlot, PrezzoProsecco, IVA, IVAeffettiva, NLitriperOttenereSconto, ScontoPercentuale, ScontoEffettivo, SceltaConsegna, CostoConsegna, SceltaMenu, LitriVino, CostoSoaveConIVA, CostoMerlotConIVA, CostoProseccoConIVA, IVAeffettivaSoave, IVAeffettivaMerlot, IVAeffettivaProsecco, SommaLitri, CostoTotaleNoTrasporti, CostoTotaleFinale, CostoTotaleConTrasporti, PrezzoTrasporti, CostoSoave, CostoMerlot, CostoProsecco" type="Real" array="False" size=""/>
+            <declare name="FinitaSceltaMenu" type="String" array="False" size=""/>
+            <assign variable="IVA" expression="0.22"/>
+            <assign variable="LSoave" expression="0"/>
+            <assign variable="LMerlot" expression="0"/>
+            <assign variable="LProsecco" expression="0"/>
+            <assign variable="PrezzoSoave" expression="1.5"/>
+            <assign variable="PrezzoMerlot" expression="1"/>
+            <assign variable="PrezzoProsecco" expression="3"/>
+            <assign variable="ScontoPercentuale" expression="0.10"/>
+            <assign variable="PrezzoTrasporti" expression="5"/>
+            <assign variable="FinitaSceltaMenu" expression="&quot;s&quot;"/>
+            <while expression="FinitaSceltaMenu = &quot;s&quot;">
+                <output expression="&quot;Scegli 1 se vuoi acquistare Soave&quot;" newline="True"/>
+                <output expression="&quot;Scegli 2 se vuoi acquistare Merlot&quot;" newline="True"/>
+                <output expression="&quot;Scegli 3 se vuoi acquistare Prosecco&quot;" newline="True"/>
+                <input variable="SceltaMenu"/>
+                <if expression="SceltaMenu = 1">
+                    <then>
+                        <output expression="&quot;Scrivi Litri Soave da acquistare&quot;" newline="True"/>
+                        <input variable="LitriVino"/>
+                        <assign variable="LSoave" expression="LSoave + LitriVino"/>
+                        <output expression="&quot;Vuoi acquistare altro? (s/n)&quot;" newline="True"/>
+                        <input variable="FinitaSceltaMenu"/>
+                    </then>
+                    <else>
+                        <if expression="SceltaMenu = 2">
+                            <then>
+                                <output expression="&quot;Scrivi Litri Soave da acquistare&quot;" newline="True"/>
+                                <input variable="LitriVino"/>
+                                <assign variable="LSoave" expression="LSoave + LitriVino"/>
+                                <output expression="&quot;Vuoi acquistare altro? (s/n)&quot;" newline="True"/>
+                                <input variable="FinitaSceltaMenu"/>
+                            </then>
+                            <else>
+                                <if expression="SceltaMenu = 3">
+                                    <then>
+                                        <output expression="&quot;Scrivi Litri Soave da acquistare&quot;" newline="True"/>
+                                        <input variable="LitriVino"/>
+                                        <assign variable="LSoave" expression="LSoave + LitriVino"/>
+                                        <output expression="&quot;Vuoi acquistare altro? (s/n)&quot;" newline="True"/>
+                                        <input variable="FinitaSceltaMenu"/>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;Inserisci un valore valido&quot;" newline="True"/>
+                                        <assign variable="FinitaSceltaMenu" expression="&quot;n&quot;"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <assign variable="SommaLitri" expression="LSoave + LMerlot + LProsecco"/>
+            <assign variable="CostoSoave" expression="LSoave * PrezzoSoave"/>
+            <assign variable="CostoMerlot" expression="LMerlot * PrezzoMerlot"/>
+            <assign variable="CostoProsecco" expression="LProsecco * PrezzoProsecco"/>
+            <assign variable="IVAeffettivaSoave" expression="CostoSoave * IVA"/>
+            <assign variable="IVAeffettivaMerlot" expression="CostoMerlot * IVA"/>
+            <assign variable="IVAeffettivaProsecco" expression="CostoProsecco * IVA"/>
+            <assign variable="CostoProseccoConIVA" expression="CostoProsecco + IVAeffettivaProsecco"/>
+            <assign variable="CostoSoaveConIVA" expression="CostoSoave + IVAeffettivaSoave"/>
+            <assign variable="CostoMerlotConIVA" expression="CostoMerlot + IVAeffettivaMerlot"/>
+            <assign variable="CostoTotaleNoTrasporti" expression="CostoSoaveConIVA + CostoMerlotConIVA + CostoProseccoConIVA"/>
+            <output expression="&quot;Consegna a domicilio? (s/n)&quot;" newline="True"/>
+            <input variable="SceltaConsegna"/>
+            <if expression="SommaLitri &gt; 10">
+                <then>
+                    <assign variable="ScontoEffettivo" expression="CostoTotaleNoTrasporti * ScontoPercentuale"/>
+                    <assign variable="CostoTotaleNoTrasporti" expression="CostoTotaleNoTrasporti - ScontoEffettivo"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="SceltaConsegna = &quot;s&quot;">
+                <then>
+                    <assign variable="CostoTotaleConTrasporti" expression="CostoTotaleNoTrasporti + PrezzoTrasporti"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;SCONTRINO&quot;" newline="True"/>
+            <output expression="&quot;Soave (&quot; &amp;LSoave &amp;&quot;): Costo Senza IVA: &quot; &amp;CostoSoave &amp;&quot; Costo Con IVA: &quot; &amp;CostoSoaveConIVA" newline="True"/>
+            <output expression="&quot;Merlot (&quot; &amp;LMerlot &amp;&quot;): Costo Senza IVA: &quot; &amp;CostoMerlot &amp;&quot; Costo Con IVA: &quot; &amp;CostoMerlotConIVA" newline="True"/>
+            <output expression="&quot;Prosecco (&quot; &amp;LProsecco &amp;&quot;): Costo Senza IVA: &quot; &amp;CostoProsecco &amp;&quot; Costo Con IVA: &quot; &amp;CostoProseccoConIVA" newline="True"/>
+            <output expression="&quot;Costo totale: &quot; &amp;CostoTotaleConTrasporti" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

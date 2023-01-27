@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="miche"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-11 09:24:23 "/>
+        <attribute name="created" value="bWljaGU7TEFQVE9QLTRPS0pHTEtVOzIwMjItMTAtMTA7IjA2OjQ4OjAwICI7Mjc5NQ=="/>
+        <attribute name="edited" value="bWljaGU7TEFQVE9QLTRPS0pHTEtVOzIwMjItMTAtMTA7IjA3OjIzOjQ0ICI7MjtuaW5qYTtNQVRURU87MjAyMi0xMC0wODsiMDU6NDQ6MjQgIjtDb250ZWdnaW8gZGVpIG51bWVyaS5mcHJnOzc2Mjk="/>
+        <attribute name="edited" value="bWljaGU7TEFQVE9QLTRPS0pHTEtVOzIwMjItMTAtMTA7IjExOjI0OjM2ICI7MjsyOTAz"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xMTsiMDk6MjQ6MjMgIjsyOzMxMDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="NPositivi = contatore dei numeri positivi"/>
+            <declare name="NPositivi" type="Integer" array="False" size=""/>
+            <declare name="NNegativi" type="Integer" array="False" size=""/>
+            <comment text="NumeroInserito serve per salvare il dato di input dell'utente, che poi viene inserito in una stringa listaNumeri"/>
+            <declare name="NumeroInserito" type="Integer" array="False" size=""/>
+            <declare name="listaNumeri" type="String" array="False" size=""/>
+            <comment text="Inizializiamo le variabili"/>
+            <assign variable="ListaNumeri" expression="&quot;&quot;"/>
+            <assign variable="NPositivi" expression="0"/>
+            <assign variable="NNegativi" expression="0"/>
+            <comment text="ListaNumeriPositivi restituisce la stringa di numeri positivi inseriti dall'utente nella variabile NumeroInserito"/>
+            <declare name="ListaNumeriPositivi" type="String" array="False" size=""/>
+            <declare name="ListaNumeriNegativi" type="String" array="False" size=""/>
+            <assign variable="ListaNumeriPositivi" expression="&quot;&quot;"/>
+            <assign variable="ListaNumeriNegativi" expression="&quot;&quot;"/>
+            <output expression="&quot;Inserisci numeri da classificare (scrivi 0 per terminare la lista)&quot;" newline="True"/>
+            <input variable="NumeroInserito"/>
+            <comment text="Loop per stabilire che il primo input non &#232; 0"/>
+            <while expression="NumeroInserito = 0">
+                <output expression="&quot;Sequenza non definita.&quot; &amp;toChar(13) &amp;toChar(10)&#13;&#10;&amp;&quot;Inserire una sequenza&quot;" newline="True"/>
+                <input variable="NumeroInserito"/>
+            </while>
+            <assign variable="ListaNumeri" expression="ListaNumeri &amp;&quot; &quot; &amp;NumeroInserito"/>
+            <while expression="NumeroInserito != 0">
+                <comment text="Se il numero inserito &#232; positivo viene salvato nella stringa di numeri positivi, mentre se &#232; negativo in quella dei numeri negativi"/>
+                <if expression="NumeroInserito &gt; 0">
+                    <then>
+                        <assign variable="NPositivi" expression="NPositivi + 1"/>
+                        <assign variable="ListaNumeriPositivi" expression="ListaNumeriPositivi &amp;&quot; &quot; &amp;NumeroInserito"/>
+                    </then>
+                    <else>
+                        <assign variable="NNegativi" expression="NNegativi + 1"/>
+                        <assign variable="ListaNumeriNegativi" expression="ListaNumeriNegativi &amp;&quot; &quot; &amp;NumeroInserito"/>
+                    </else>
+                </if>
+                <output expression="&quot;Inserisci un altro numero oppure 0 per terminare la lista&quot;" newline="True"/>
+                <input variable="NumeroInserito"/>
+                <comment text="Se il numero inserito &#232; 0 finisce il loop"/>
+                <if expression="NumeroInserito = 0">
+                    <then/>
+                    <else>
+                        <assign variable="ListaNumeri" expression="ListaNumeri &amp;&quot; &quot; &amp;NumeroInserito"/>
+                    </else>
+                </if>
+            </while>
+            <comment text="output finale"/>
+            <output expression="&quot;Lista di numeri inseriti:&quot; &amp;ListaNumeri &amp;toChar(13)&#13;&#10;&amp;&quot;Di questi &quot; &amp;NPositivi &amp;&quot; sono positivi: &quot; &amp;ListaNumeriPositivi &amp;toChar(13)&#13;&#10;&amp;&quot;E &quot; &amp;NNegativi &amp;&quot; sono negativi: &quot; &amp;ListaNumeriNegativi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

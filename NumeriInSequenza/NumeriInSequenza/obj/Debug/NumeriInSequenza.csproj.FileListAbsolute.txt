@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\obj\Debug\NumeriInSequenza.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\obj\Debug\NumeriInSequenza.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\bin\Debug\NumeriInSequenza.exe.config
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\bin\Debug\NumeriInSequenza.exe
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\bin\Debug\NumeriInSequenza.pdb
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\obj\Debug\NumeriInSequenza.exe
+C:\Users\Studente\Desktop\MIchele_cervati\NumeriInSequenza\NumeriInSequenza\obj\Debug\NumeriInSequenza.pdb

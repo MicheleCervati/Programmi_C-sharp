@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-22 09:24:10 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMTA7MjAyMi0xMC0yMjsiMDk6MDE6MjQgIjsyOTg2"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMTA7MjAyMi0xMC0yMjsiMDk6MjQ6MTAgIjsxOzMwOTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="byte, i, cifra, bytePartenza" type="Integer" array="False" size=""/>
+            <declare name="decimale" type="Integer" array="False" size=""/>
+            <declare name="binario" type="Boolean" array="False" size=""/>
+            <assign variable="binario" expression="true"/>
+            <assign variable="decimale" expression="0"/>
+            <assign variable="i" expression="0"/>
+            <output expression="&quot;INSERISCI IL NUMERO BINARIO DA CONVERTIRE IN DECIMALE&quot;" newline="True"/>
+            <input variable="byte"/>
+            <assign variable="bytePartenza" expression="byte"/>
+            <while expression="byte &gt; 0 &amp;&amp; binario == true">
+                <assign variable="cifra" expression="byte%10"/>
+                <if expression="cifra == 0 || cifra == 1">
+                    <then>
+                        <assign variable="decimale" expression="decimale + cifra * 2^i"/>
+                        <assign variable="i" expression="i + 1"/>
+                        <assign variable="byte" expression="byte/10"/>
+                    </then>
+                    <else>
+                        <assign variable="binario" expression="false"/>
+                    </else>
+                </if>
+            </while>
+            <if expression="binario == true">
+                <then>
+                    <output expression="&quot;IL NUMERO BINARIO &quot; &amp;bytePartenza &amp;&quot; IN DECIMALE E &quot; &amp;decimale" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;IL NUMERO INSERITO NON E UN NUMERO BINARIO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 09:22:50 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDk6MDc6MTkgIjszMDA5"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDk6MjI6NTAgIjsxOzMxMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="contatore" type="Integer" array="False" size=""/>
+            <assign variable="contatore" expression="1"/>
+            <input variable="numero"/>
+            <while expression="numero &gt;= 10">
+                <assign variable="numero" expression="numero / 10"/>
+                <assign variable="contatore" expression="contatore + 1"/>
+            </while>
+            <output expression="&quot;IL NUMERO INSERITO AVEVA &quot; &amp;contatore &amp;&quot; CIFRE&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

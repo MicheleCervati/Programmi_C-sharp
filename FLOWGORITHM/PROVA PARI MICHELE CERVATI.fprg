@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-18 09:05:53 "/>
+        <attribute name="created" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDg6NTU6MzYgIjszMDEw"/>
+        <attribute name="edited" value="U3R1ZGVudGU7SU5GT1JNQVRJQ0EyMDk7MjAyMi0xMC0xODsiMDk6MDU6NTMgIjsxOzMxMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, contatore, totNumeri" type="Integer" array="False" size=""/>
+            <declare name="trovatoPari" type="Boolean" array="False" size=""/>
+            <assign variable="trovatoPari" expression="false"/>
+            <assign variable="contatore" expression="1"/>
+            <output expression="&quot;QUANTI NUMERI VUOI INSERIRE&quot;" newline="True"/>
+            <input variable="totNumeri"/>
+            <do expression="(contatore &lt;= totNumeri + 1) &amp;&amp; (trovatoPari == false)">
+                <output expression="&quot;INSERISCI NUMERO&quot; &amp;contatore" newline="True"/>
+                <input variable="numero"/>
+                <if expression="numero == 0">
+                    <then>
+                        <output expression="&quot;0 NON E NE PARI NE DISPARI&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="numero % 2 == 0">
+                            <then>
+                                <assign variable="trovatoPari" expression="true"/>
+                                <output expression="numero &amp;&quot; E PARI&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="contatore" expression="contatore + 1"/>
+            </do>
+            <if expression="trovatoPari == true">
+                <then>
+                    <output expression="&quot;TROVATO UN PARI&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NON E STATO TROVATO NEANCHE UN NUMERO PARI&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

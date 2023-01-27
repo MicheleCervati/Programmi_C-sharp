@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\obj\Debug\Volume Cilindro Cervati Michele.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\obj\Debug\Volume Cilindro Cervati Michele.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\obj\Debug\Volume Cilindro Cervati Michele.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\bin\Debug\Volume Cilindro Cervati Michele.exe.config
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\bin\Debug\Volume Cilindro Cervati Michele.exe
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\bin\Debug\Volume Cilindro Cervati Michele.pdb
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\obj\Debug\Volume Cilindro Cervati Michele.exe
+C:\Users\miche\Desktop\Volume Cilindro Cervati Michele\Volume Cilindro Cervati Michele\obj\Debug\Volume Cilindro Cervati Michele.pdb

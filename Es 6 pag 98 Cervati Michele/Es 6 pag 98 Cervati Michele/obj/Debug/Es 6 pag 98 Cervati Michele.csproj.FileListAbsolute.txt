@@ -1,0 +1,15 @@
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.exe.config
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.exe
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.pdb
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.exe
+C:\Users\miche\Desktop\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.pdb
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.csproj.AssemblyReference.cache
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.exe
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\obj\Debug\Es 6 pag 98 Cervati Michele.pdb
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.exe.config
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.exe
+C:\Users\Studente\Downloads\Es 6 pag 98 Cervati Michele\Es 6 pag 98 Cervati Michele\bin\Debug\Es 6 pag 98 Cervati Michele.pdb
