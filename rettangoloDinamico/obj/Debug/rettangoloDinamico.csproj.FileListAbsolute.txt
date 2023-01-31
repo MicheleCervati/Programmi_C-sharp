@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\bin\Debug\rettangoloDinamico.exe.config
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\bin\Debug\rettangoloDinamico.exe
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\bin\Debug\rettangoloDinamico.pdb
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\obj\Debug\rettangoloDinamico.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\obj\Debug\rettangoloDinamico.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\obj\Debug\rettangoloDinamico.exe
+C:\Users\Studente\Desktop\Michele_Cervati\rettangoloDinamico\obj\Debug\rettangoloDinamico.pdb

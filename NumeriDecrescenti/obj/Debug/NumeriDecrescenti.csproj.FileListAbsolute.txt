@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\bin\Debug\NumeriDecrescenti.exe.config
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\bin\Debug\NumeriDecrescenti.exe
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\bin\Debug\NumeriDecrescenti.pdb
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\obj\Debug\NumeriDecrescenti.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\obj\Debug\NumeriDecrescenti.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\obj\Debug\NumeriDecrescenti.exe
+C:\Users\Studente\Desktop\Michele_Cervati\NumeriDecrescenti\obj\Debug\NumeriDecrescenti.pdb
