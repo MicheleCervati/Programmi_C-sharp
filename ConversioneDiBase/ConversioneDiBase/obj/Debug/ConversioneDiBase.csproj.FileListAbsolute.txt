@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\bin\Debug\ConversioneDiBase.exe.config
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\bin\Debug\ConversioneDiBase.exe
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\bin\Debug\ConversioneDiBase.pdb
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\obj\Debug\ConversioneDiBase.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\obj\Debug\ConversioneDiBase.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\obj\Debug\ConversioneDiBase.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\obj\Debug\ConversioneDiBase.exe
+C:\Users\miche\Desktop\ConversioneDiBase\ConversioneDiBase\obj\Debug\ConversioneDiBase.pdb
