@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\bin\Debug\cifreRandom.exe.config
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\bin\Debug\cifreRandom.exe
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\bin\Debug\cifreRandom.pdb
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\obj\Debug\cifreRandom.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\obj\Debug\cifreRandom.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\obj\Debug\cifreRandom.exe
+C:\Users\Studente\Desktop\cifreRandom\cifreRandom\cifreRandom\obj\Debug\cifreRandom.pdb
