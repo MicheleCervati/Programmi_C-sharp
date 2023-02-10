@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeriAssenti", "NumeriAssenti\NumeriAssenti.csproj", "{A0AEF355-1AF5-4F80-801B-B7DDE59C7F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0AEF355-1AF5-4F80-801B-B7DDE59C7F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AEF355-1AF5-4F80-801B-B7DDE59C7F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AEF355-1AF5-4F80-801B-B7DDE59C7F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AEF355-1AF5-4F80-801B-B7DDE59C7F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE17B651-C63B-4817-84A6-D1E9309B9892}
+	EndGlobalSection
+EndGlobal

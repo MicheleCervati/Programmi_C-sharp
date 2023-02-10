@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\bin\Debug\NumeriAssenti.exe.config
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\bin\Debug\NumeriAssenti.exe
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\bin\Debug\NumeriAssenti.pdb
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\obj\Debug\NumeriAssenti.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\obj\Debug\NumeriAssenti.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\obj\Debug\NumeriAssenti.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\obj\Debug\NumeriAssenti.exe
+C:\Users\miche\Desktop\NumeriAssenti\NumeriAssenti\obj\Debug\NumeriAssenti.pdb
