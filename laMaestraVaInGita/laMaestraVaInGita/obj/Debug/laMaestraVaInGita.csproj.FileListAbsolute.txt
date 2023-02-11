@@ -1,0 +1,7 @@
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\bin\Debug\laMaestraVaInGita.exe.config
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\bin\Debug\laMaestraVaInGita.exe
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\bin\Debug\laMaestraVaInGita.pdb
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\obj\Debug\laMaestraVaInGita.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\obj\Debug\laMaestraVaInGita.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\obj\Debug\laMaestraVaInGita.exe
+C:\Users\Studente\Desktop\Programmi_C-sharp\laMaestraVaInGita\laMaestraVaInGita\obj\Debug\laMaestraVaInGita.pdb
