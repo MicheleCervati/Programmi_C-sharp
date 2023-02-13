@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\bin\Debug\ScuolaElementareConMenu.exe.config
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\bin\Debug\ScuolaElementareConMenu.exe
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\bin\Debug\ScuolaElementareConMenu.pdb
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\obj\Debug\ScuolaElementareConMenu.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\obj\Debug\ScuolaElementareConMenu.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\obj\Debug\ScuolaElementareConMenu.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\obj\Debug\ScuolaElementareConMenu.exe
+C:\Users\miche\Desktop\ScuolaElementareConMenu\ScuolaElementareConMenu\obj\Debug\ScuolaElementareConMenu.pdb
