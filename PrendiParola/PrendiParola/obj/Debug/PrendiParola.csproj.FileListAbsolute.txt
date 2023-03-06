@@ -1,0 +1,8 @@
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\bin\Debug\PrendiParola.exe.config
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\bin\Debug\PrendiParola.exe
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\bin\Debug\PrendiParola.pdb
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\obj\Debug\PrendiParola.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\obj\Debug\PrendiParola.csproj.SuggestedBindingRedirects.cache
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\obj\Debug\PrendiParola.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\obj\Debug\PrendiParola.exe
+C:\Users\miche\Desktop\PrendiParola\PrendiParola\obj\Debug\PrendiParola.pdb
